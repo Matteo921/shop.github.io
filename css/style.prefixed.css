@@ -1,0 +1,28 @@
+.box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 600px;
+  height: 400px;
+  background-image: url(https://texashillcountry.com/wp-content/uploads/norris-tex-e1548371046876-660x400.jpg);
+}
+
+.box p {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Modak', cursive;
+}
+
+button {
+  font-weight: bold;
+  width: 80px;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  transform: scale(1.1);
+}
+/*# sourceMappingURL=style.prefixed.css.map */
